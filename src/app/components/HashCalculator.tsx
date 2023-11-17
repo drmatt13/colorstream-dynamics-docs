@@ -111,7 +111,7 @@ const HashCalculator = () => {
     <>
       <div className="w-full h-full flex flex-col-reverse sm:flex-row sm:justify-between lg:justify-around items-center">
         {/* *************************************************************** */}
-        <div className="w-[40%] sm:w-[35%] md:w-[32.5%] lg:w-[30%] flex flex-col justify-between relative text-[.8rem] lg:text-sm">
+        <div className="w-[52.5%] sm:w-[35%] md:w-[32.5%] lg:w-[30%] flex flex-col justify-between relative text-[.8rem] lg:text-sm">
           <label className="mb-1">MD5 Hash:</label>
           <div className="bg-gray-200 py-1.5 px-2.5 rounded-md truncate">
             {hash.length === 0 ? (
@@ -152,7 +152,7 @@ const HashCalculator = () => {
           </div>
         </div>
         {/* *************************************************************** */}
-        <div className="my-2.5 mb-7 sm:my-0 sm:mb-0 w-[70%] sm:w-[57.5%] lg:w-[60%] h-40 sm:h-36 lg:h-52 flex">
+        <div className="my-2.5 mb-7 sm:my-0 sm:mb-0 w-[95%] max-w-sm sm:max-w-none sm:w-[57.5%] lg:w-[60%] h-36 sm:h-36 lg:h-52 flex">
           <KinesisDiagram />
         </div>
       </div>
@@ -161,9 +161,9 @@ const HashCalculator = () => {
           {hash.length === 0 ? (
             <div className="pointer-events-none opacity-0">{"no hash"}</div>
           ) : (
-            <>
+            <div className="text-xs sm:text-sm">
               {hash} {"->"} Shard {shard}
-            </>
+            </div>
           )}
         </div>
       </div>

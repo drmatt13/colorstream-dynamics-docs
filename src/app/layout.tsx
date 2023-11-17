@@ -19,7 +19,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex flex-col items-center bg-black/80`}
       >
-        <div className="w-full md:w-[600px] lg:w-[900px] bg-white">
+        <div className="w-full md:w-[650px] lg:w-[900px] bg-white">
           {children}
           <footer className="w-full">
             <div className="flex flex-col items-center justify-center h-28">

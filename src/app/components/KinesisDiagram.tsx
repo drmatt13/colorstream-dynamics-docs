@@ -77,7 +77,7 @@ const KinesisDiagram = () => {
                           <div className="w-[85%] h-[100%] bg-gradient-to-b from-green-500 via-green-700 to-lime-900 pl-[15%] pr-[2.5%] relative">
                             <div className="absolute left-0 top-0 h-full w-[80%] translate-x-[20%] z-10 flex flex-col justify-between">
                               <div className="h-[17.5%]"></div>
-                              <div className="flex-1 ml-[15%] mr-[7.5%] flex justify-center items-center text-xs md:text-[.7rem] lg:text-xs font-bold">
+                              <div className="flex-1 ml-[15%] mr-[7.5%] flex justify-center items-center text-[.6rem] sm:text-xs md:text-[.7rem] lg:text-xs font-bold">
                                 shard
                               </div>
                               <div className="h-[17.5%]"></div>

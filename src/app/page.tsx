@@ -1,11 +1,30 @@
 "use client";
 
+import { useEffect } from "react";
+
 import HashCalculator from "./components/HashCalculator";
 import BeforeAndAfter from "./components/BeforeAndAfter";
 
 /* eslint-disable @next/next/no-img-element */
 
 export default function Home() {
+  useEffect(() => {
+    preloadImages();
+  }, []);
+
+  const preloadImages = () => {
+    const imageUrls = [
+      "/fanout2.drawio.png",
+      "/SplittingAndMerging5.drawio.png",
+      "/SplittingAndMerging3.drawio.png",
+    ];
+
+    imageUrls.forEach((url) => {
+      const img = new Image();
+      img.src = url;
+    });
+  };
+
   return (
     <>
       <div className="w-full flex flex-col items-center pt-12 lg:pt-16 pb-10 md:pb-12 px-6 sm:px-10 text-sm sm:text-base">
