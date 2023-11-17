@@ -5,8 +5,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kinesis Stream: CI/CD Edition",
-  openGraph: {},
+  title: "ColorStream Dynamics: Documentation",
 };
 
 export default function RootLayout({
@@ -16,6 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* generate og image */}
+        <meta property="og:image" content="/frontend.png" />
+      </head>
       <body
         className={`${inter.className} flex flex-col items-center bg-black/80`}
       >
