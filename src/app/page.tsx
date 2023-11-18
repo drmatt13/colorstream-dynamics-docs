@@ -124,7 +124,7 @@ export default function Home() {
           <img src="/kinesis.drawio.png" alt="kinesis.drawio.png" />
         </div>
         <div className="mt-3 italic text-xs lg:text-sm">^ click to expand</div>
-        <div className="mt-8 max-w-[90vw] ">
+        <div className="max-w-[90vw] ">
           <p className="mt-8">
             AWS Kinesis Data Streams is a robust, real-time data streaming
             service designed to handle large volumes of data records
