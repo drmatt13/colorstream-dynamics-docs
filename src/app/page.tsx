@@ -47,7 +47,7 @@ export default function Home() {
         </a>
         {/* ********************************************* */}
 
-        <div className="mt-8 max-w-[90vw] ">
+        <div className="mt-8 max-w-[90vw] w-full text-sm lg:text-md">
           <p>
             {'"'}ColorStream Dynamics{'"'} is an innovative venture into the
             world of AWS Kinesis Data Streams, providing a comprehensive
@@ -124,7 +124,7 @@ export default function Home() {
           <img src="/kinesis.drawio.png" alt="kinesis.drawio.png" />
         </div>
         <div className="mt-3 italic text-xs lg:text-sm">^ click to expand</div>
-        <div className="max-w-[90vw] ">
+        <div className="max-w-[90vw] w-full text-sm lg:text-md ">
           <p className="mt-8">
             AWS Kinesis Data Streams is a robust, real-time data streaming
             service designed to handle large volumes of data records
@@ -843,7 +843,7 @@ export default function Home() {
           />
         </div>
         <div className="mt-3 italic text-xs lg:text-sm">^ click to expand</div>
-        <div className="max-w-[90vw]">
+        <div className="max-w-[90vw] w-full text-sm lg:text-md">
           <p className="mt-8">
             The backend design for {`"`}ColorStream Dynamics{`"`} is a
             well-orchestrated ensemble of AWS services, leveraging the
@@ -920,7 +920,7 @@ export default function Home() {
           <img src="/react.drawio.png" alt="react.drawio.png" />
         </div>
         <div className="mt-3 italic text-xs lg:text-sm">^ click to expand</div>
-        <div className="max-w-[90vw]">
+        <div className="max-w-[90vw] w-full text-sm lg:text-md">
           <p className="mt-8">
             The front end for {`"`}ColorStream Dynamics{`"`} directly interfaces
             with AWS Kinesis Data Streams, executing real-time data streaming
@@ -1000,7 +1000,7 @@ export default function Home() {
           <img src="/sam-kinesis.drawio.png" alt="sam-kinesis.drawio.png" />
         </div>
         <div className="mt-3 italic text-xs lg:text-sm">^ click to expand</div>
-        <div className="max-w-[90vw]">
+        <div className="max-w-[90vw] w-full text-sm lg:text-md">
           <p className="pt-8">
             The deployment architecture for {`"`}ColorStream Dynamics{`"`} is a
             carefully structured process that begins with the cloning of the Git
