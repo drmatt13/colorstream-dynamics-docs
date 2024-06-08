@@ -47,7 +47,7 @@ export default function Home() {
         </a>
         {/* ********************************************* */}
 
-        <div className="mt-8 max-w-[90vw] w-full text-sm lg:text-md">
+        <div className="mt-6 max-w-[90vw] w-full text-sm lg:text-md">
           <p>
             {'"'}ColorStream Dynamics{'"'} is an innovative venture into the
             world of AWS Kinesis Data Streams, providing a comprehensive
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         {/* ********************************************* */}
 
-        <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+        <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
           What is Kinesis Data Streams
         </h2>
         <div
@@ -192,7 +192,7 @@ export default function Home() {
             distributing and processing streams at scale, ensuring that Kinesis
             can meet the demands of diverse data-intensive applications.
           </p>
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Shard Throughput Limits
           </h2>
           <div
@@ -255,7 +255,7 @@ export default function Home() {
             for handling large-scale, real-time data workloads in diverse
             applications.
           </p>
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Partition Keys
           </h2>
           <div
@@ -328,7 +328,7 @@ export default function Home() {
             applications.
           </p>
           {/* ********************************************* */}
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             The Record Distribution Process
           </h2>
           <p className="mt-8">
@@ -390,7 +390,7 @@ export default function Home() {
             values—is crucial to avert such imbalances and maintain optimal
             stream performance.
           </p>
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Shard Splitting
           </h2>
           <BeforeAndAfter
@@ -430,7 +430,7 @@ export default function Home() {
             the stream are aware of the new shards and can access data from all
             relevant shards to maintain a complete and ordered dataset.
           </p>
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Shard Merging
           </h2>
           <BeforeAndAfter
@@ -477,7 +477,7 @@ export default function Home() {
             of the stream{`'`}s reduced data throughput requirements.
           </p>
           {/* ********************************************* */}
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Enhanced Fan-Out
           </h2>
           <BeforeAndAfter
@@ -584,7 +584,7 @@ export default function Home() {
             prepared to scale up as data volumes grow.
           </p>
           {/* ********************************************* */}
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Manually Polling Records
           </h2>
           <div
@@ -718,7 +718,7 @@ export default function Home() {
             scalable and efficient solutions for handling streaming data in
             diverse operational environments.
           </p>
-          <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+          <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
             Lambda Triggers
           </h2>
           <div
@@ -830,7 +830,7 @@ export default function Home() {
         </div>
         {/* ********************************************* */}
 
-        <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+        <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
           App Back-End Design
         </h2>
         <div
@@ -910,7 +910,7 @@ export default function Home() {
         </div>
         {/* ********************************************* */}
 
-        <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+        <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
           App Front-End Implementation
         </h2>
         <div
@@ -990,7 +990,7 @@ export default function Home() {
         </div>
         {/* ********************************************* */}
 
-        <h2 className="text-md lg:text-xl my-8 md:my-10 font-bold text-center">
+        <h2 className="text-md lg:text-xl mt-12 mb-8 md:mt-14 md:mb-10 font-bold text-center">
           Architecture Deployment
         </h2>
         <div
