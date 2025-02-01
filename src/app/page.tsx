@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="w-full flex flex-col items-center pt-12 lg:pt-16 pb-10 md:pb-12 px-6 sm:px-10 text-sm sm:text-base">
+      <div className="w-full flex flex-col items-center text-sm sm:text-base">
         <h1 className="text-lg lg:text-2xl font-bold mb-2.5">
           ColorStream Dynamics
         </h1>
@@ -37,13 +37,13 @@ export default function Home() {
         <video
           src="/kinesis.mp4"
           controls={true}
-          className="max-w-full md:w-[90%] lg:w-[75%]"
+          className="w-full max-w-2xl aspect-video"
         ></video>
         <a
           href="https://github.com/drmatt13/ColorStream-Dynamics"
           className="text-blue-600 hover:underline cursor-pointer mt-8 text-base lg:text-xl visited:text-purple-600"
         >
-          github repository
+          GitHub Repository
         </a>
         {/* ********************************************* */}
 

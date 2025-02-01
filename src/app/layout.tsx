@@ -14,16 +14,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="text-[14px] sm:text-[14px]">
       <head>
         {/* generate og image */}
         <meta property="og:image" content="/frontend.png" />
+        <link rel="icon" type="image/png" href="/documents.png" />
       </head>
       <body
-        className={`${inter.className} flex flex-col items-center bg-black/80`}
+        className={`${inter.className} flex flex-col items-center bg-black/80 overflow-x-hidden`}
       >
-        <div className="w-full md:w-[650px] lg:w-[900px] bg-white">
-          {children}
+        <div className="w-full sm:w-[90vw] max-w-[42rem] lg:max-w-[48rem] xl:max-w-[56rem] bg-white relative overflow-hidden">
+          <div className="w-full flex flex-col items-center pt-12 lg:pt-16 pb-6 md:pb-7 px-4 sm:px-10 text-sm sm:text-base">
+            {children}
+          </div>
           <footer className="w-full">
             <div className="flex flex-col items-center justify-center h-28">
               <p className="lg:text-lg font-bold mt-6 mb-2">
